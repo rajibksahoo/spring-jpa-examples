@@ -1,13 +1,13 @@
-package guru.springframework.sdjpaintro;
+package rajib.springframework.jpaexamples;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SdjpaIntroApplication {
+public class SpringJPAExampleApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SdjpaIntroApplication.class, args);
+        SpringApplication.run(SpringJPAExampleApplication.class, args);
     }
 
 }
