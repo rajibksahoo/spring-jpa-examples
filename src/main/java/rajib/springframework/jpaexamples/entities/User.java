@@ -22,5 +22,10 @@ public class User {
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
     private List<BorrowRecord> borrowRecords;
+
+    public User(String name, String email) {
+        this.name = name;
+        this.email = email;
+    }
 }
 
