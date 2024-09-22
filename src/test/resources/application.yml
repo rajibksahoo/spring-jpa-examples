@@ -1,0 +1,6 @@
+logging:
+  level:
+    root: INFO      # Root logging level (can be DEBUG, INFO, WARN, ERROR)
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %logger{36} - %msg%n"  # Log format
+
